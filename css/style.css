@@ -1,0 +1,257 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+body {
+  font-family: "Catamaran", sans-serif;
+  font-size: 25px;
+}
+
+.container {
+  width: 1920px;
+  outline: auto;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header .container {
+  display: flex;
+  padding-left: 170px;
+  padding-right: 213px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+}
+.btn-list {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 46px;
+  padding-bottom: 17px;
+}
+
+.btn-list li:not(:last-child) {
+  margin-right: 72px;
+}
+
+.logo-wrapper {
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+  bottom: 0;
+  left: 68px;
+  width: 91px;
+  height: 53px;
+  margin-top: 59px;
+}
+
+.navigation-list li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navigation-list a {
+  font-size: 25px;
+  line-height: 1.34;
+  font-weight: 500;
+  padding: 67px 14px 8px;
+  display: block;
+  color: #000000;
+}
+.navigation-list a:hover,
+.navigation-list a:focus {
+  background: #a3c1ef;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  align-items: center;
+  background: transparent;
+}
+
+.appointment {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #a3c1ef;
+  padding: 23px 33px;
+  border-radius: 20px;
+  border: none;
+}
+
+/* HERO */
+
+.hero-title {
+  font-style: 75px;
+  font-weight: 700;
+  line-height: 1.336;
+  color: #153461;
+}
+.hero-title span {
+  color: #fbb400;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.506;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+  margin-top: 29px;
+  margin-bottom: 97px;
+}
+
+.hero .container {
+  padding-top: 161px;
+  padding-bottom: 138px;
+  padding-left: 188px;
+  background-image: url(../img/bghero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+
+/* HISTORY */
+.history .container {
+  padding-left: 1349px;
+  padding-right: 195px;
+  padding-top: 288px;
+  padding-bottom: 175px;
+  background: url(../img/vector1.svg) left top,
+    url(../img/barbers.png) left center, url(../img/vector2.svg) right top;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.506;
+  letter-spacing: 0.03em;
+  color: #163561;
+}
+
+.title span {
+  color: #fbb400;
+}
+
+.history-item {
+  width: 526px;
+}
+
+.history-list {
+  margin-top: 80px;
+  margin-bottom: 108px;
+}
+.history-item:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+/* SERVICES */
+
+.services .title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.services-list {
+  display: flex;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.icon-wraper {
+  width: 103px;
+  height: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5ecfe;
+  box-shadow: 0px 1px 0px #008fdd;
+  border-radius: 13px;
+  margin: 0 auto;
+  margin-bottom: 59px;
+}
+.services-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.services-title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #163561;
+}
+
+.services-item {
+  padding: 50px 41px 72px;
+  background: #fafbff;
+  box-shadow: 0px 5px 0px #99baed;
+  border-radius: 29px;
+}
+
+.services-item:hover,
+.services-item:focus {
+  background: #99baed;
+  box-shadow: 31px 28px 50px 5px #d5e5ff;
+  cursor: pointer;
+}
+
+.services-item:hover h3,
+.services-item:focus h3,
+.services-item:hover p,
+.services-item:focus p {
+  color: #ffffff;
+}
+
+.services-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.506;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+}
+
+.services .container {
+  padding-top: 175px;
+  padding-bottom: 272px;
+  background: url(../img/vector3.svg) left bottom,
+    url(../img/vector4.svg) right bottom;
+  background-repeat: no-repeat;
+}
+
+.services-icon:hover,
+.services-icon:focus {
+  fill: #ffffff;
+}
+
+.services-item:hover .icon-wraper,
+.services-item:focus .icon-wraper {
+  background-color: #fbb400;
+}
